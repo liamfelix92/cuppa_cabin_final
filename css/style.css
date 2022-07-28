@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Navbar*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #00ff89;
+    z-index: 1;
+    text-align: center;
+}
+
+.navbar .navbar-toggler{
+    border: 0;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a:hover {
+    font-weight: bold;
+    color: #DA46BD;
+}
+
+
+/* cta */
+
+.callout-container {
+    height: 100vh;
+    background: url(../assets/landscape.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.callout {
+    background-color: #00ff89;
+}
+
+.btn--cta {
+    font-weight: bold;
+    text-align: center;
+    background-color: #DA46BD;
+    border-radius: 10px;
+    width: 140px;  
+}
+
+/* map */
+
+#map-wrapper h5 {
+    text-align: center;
+    background-color: #00ff89;
+    margin-bottom: 0;
+}
+
+#map-wrapper {
+    height: 300px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+    margin: 0;
+}
+
+/* footer */
+
+#footer {
+    height: 105px;
+    background-color: #00ff89;
+}
