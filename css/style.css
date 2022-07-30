@@ -102,4 +102,30 @@ body {
 #footer {
     height: 105px;
     background-color: #00ff89;
+    text-align: center;
+}
+
+#footer li{
+    display: inline;
+}
+
+#footer li i{
+    margin-right: 25px;
+    font-size: 2rem;
+    padding-bottom: 50px;
+    clear: left;
+    margin-top: 50px;
+}
+
+/* gallery */
+
+.photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+.photo img{
+    width: 50px;
 }
