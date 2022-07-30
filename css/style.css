@@ -75,7 +75,8 @@ body {
     text-align: center;
     background-color: #DA46BD;
     border-radius: 10px;
-    width: 140px;  
+    width: 140px;
+    margin-top: 25px;
 }
 
 /* map */
@@ -103,6 +104,11 @@ body {
     height: 105px;
     background-color: #00ff89;
     text-align: center;
+    padding-left: 0;
+}
+
+#footer ul {
+    padding-right: 40px;
 }
 
 #footer li{
@@ -110,11 +116,12 @@ body {
 }
 
 #footer li i{
-    margin-right: 25px;
+    text-align: center;
     font-size: 2rem;
-    padding-bottom: 50px;
     clear: left;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: 25px;
+    color: #DA46BD;
 }
 
 /* gallery */
