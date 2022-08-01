@@ -94,6 +94,12 @@ body {
     width: 140px;
     margin-top: 25px;
 }
+.hr-white {
+    border: none;
+    height: 1px;
+    color: white;
+    background-color: white;
+}
 
 /* map */
 #map-wrapper {
