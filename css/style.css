@@ -13,7 +13,7 @@ body {
 }
 
 .container-wrapper {
-    background-color: #00ff89;
+    background-color: #28a745;
 }
 
 /*Navbar*/
@@ -32,7 +32,7 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #00ff89;
+    background-color: #28a745;
     z-index: 1;
     text-align: center;
 }
@@ -121,7 +121,7 @@ body {
 
 .media {
     display: inline;
-    background-color: #00ff89;
+    background-color: #28a745;
 }
 
 .quotes a {
@@ -132,19 +132,13 @@ body {
 .quotes a:hover {
     font-weight: bold;
 }
-
-/* Sheds */
-
-.sheds {
-    
-}
  
 /* footer */
 
 #footer {
     width: 100%;
     height: auto;
-    background-color: #00ff89;
+    background-color: #28a745;
     text-align: center;
     padding: 0;
 }
@@ -165,9 +159,5 @@ body {
     margin-left: 25px;
     margin-right: 25px;
     color: #DA46BD;
-}
-
-.copyright {
-    text-align: center;
 }
 
