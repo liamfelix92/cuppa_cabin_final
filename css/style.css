@@ -13,7 +13,7 @@ body {
 }
 
 .container-wrapper {
-    background-color: #92D293;
+    background-color: #6EDB68;
 }
 
 /*Navbar*/
@@ -32,7 +32,7 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #92D293;
+    background-color: #6EDB68;
     z-index: 1;
     text-align: center;
 }
@@ -51,7 +51,6 @@ body {
 
 .navbar .navbar-nav a:hover {
     font-weight: bold;
-    color: #DA46BD;
 }
 
 
@@ -89,7 +88,7 @@ body {
 .btn--cta {
     font-weight: bold;
     text-align: center;
-    background-color: #DA46BD;
+    background-color: #9370DB;
     border-radius: 10px;
     width: 140px;
     margin-top: 25px;
@@ -121,12 +120,12 @@ body {
 
 .media {
     display: inline;
-    background-color: #92D293;
+    background-color: #6EDB68;
 }
 
 .quotes a {
     text-decoration: none;
-    color:#DA46BD;
+    color:#9370DB;
 }
 
 .quotes a:hover {
@@ -138,7 +137,7 @@ body {
 #footer {
     width: 100%;
     height: auto;
-    background-color: #92D293;
+    background-color: #6EDB68;
     text-align: center;
     padding: 0;
 }
@@ -158,7 +157,7 @@ body {
     margin-top: 40px;
     margin-left: 25px;
     margin-right: 25px;
-    color: #DA46BD;
+    color: #7b52ae;
 }
 
 /* sheds */
@@ -179,4 +178,10 @@ body {
 .sheds p {
     margin-top: 35px;
     text-align: center;
+}
+
+.shed-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

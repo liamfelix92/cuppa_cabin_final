@@ -47,7 +47,8 @@
                 <section class="callout jumbotron text-center sheds-jumbotron">
                     <h1 class="jumbotron-header">Come and relax in our bespoke cabins<br>We have many to choose from</h1>
                     <hr class="hr-white">
-                    <h3>Check the availability of your favourite cabin <a href="#">here</a></h3>
+                    <h3>Check the availability of your favourite cabin <p><button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#bookingmodal">Here!</button></p>
+                        
                     <hr class="hr-white">
                 </section>
             </div>
@@ -55,16 +56,27 @@
     </div>
     <!-- /.callout -->
 
+<!-- Modal -->
+<div class="modal fade" id="bookingmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modal-xl">
+        <!--Simply Book widget-->
+        <script src="//widget.simplybook.it/v2/widget/widget.js"></script>
+        <script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/greenvalley.simplybook.it","theme":"default","theme_settings":{"timeline_hide_unavailable":"1","hide_past_days":"0","timeline_show_end_time":"0","timeline_modern_display":"as_slots","sb_base_color":"#6edb68","display_item_mode":"list","booking_nav_bg_color":"#9370db","body_bg_color":"#6edb68","sb_review_image":"","dark_font_color":"#494949","light_font_color":"#ffffff","btn_color_1":"#9370db","sb_company_label_color":"#6edb68","hide_img_mode":"0","show_sidebar":"1","sb_busy":"#ed5f5f","sb_available":"#6ee081"},"timeline":"modern","datepicker":"top_calendar","is_rtl":false,"app_config":{"allow_switch_to_ada":0,"predefined":{"provider":"1"}}});</script>    </div>
+        <!--/Simply Book widget-->
+    </div>
+</div>
+<!-- Modal -->
     <!-- Sheds -->
     <div class="container-wrapper">
         <div class="container content-container">
             <section class="sheds">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="media">
                         <div class="shed-image">
-                            <h4>Shed name</h4>
-                            <img src="assets/shed1.jpg" height="300" width="300">
+                            <h4>Banquet Table</h4>
+                            <img src="assets/banquet.jpg" height="300" width="300">
                         </div>  
                                 <div class="media-body">
                                 
@@ -74,11 +86,11 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="media">
                         <div class="shed-image">
-                            <h4>Shed name</h4>
-                            <img src="assets/shed2.jpg" height="300" width="300">
+                            <h4>Large Shed</h4>
+                            <img src="assets/large-shed.jpg" height="300" width="300">
                         </div>  
                                 <div class="media-body">
                                 
@@ -88,11 +100,11 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-md-6">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="media">
                             <div class="shed-image">
-                                <h4>Shed name</h4>
-                                <img src="assets/shed3.jpg" height="300" width="300">
+                                <h4>Medium Shed</h4>
+                                <img src="assets/medium-shed.jpg" height="300" width="300">
                             </div>  
                                     <div class="media-body">
                                     
@@ -102,11 +114,11 @@
                             </div>
                         </div>
     
-                        <div class="col-12 col-md-6">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="media">
                             <div class="shed-image">
-                                <h4>Shed name</h4>
-                                <img src="assets/shed4.jpg" height="300" width="300">
+                                <h4>Small Shed</h4>
+                                <img src="assets/small-shed.jpg" height="300" width="300">
                             </div>  
                                     <div class="media-body">
                                     
@@ -115,6 +127,8 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                        <button class="btn btn-lg btn--cta btn--red shed-button" data-toggle="modal" data-target="#bookingmodal">Book Now!</button> 
             </section>
 
         </div>
