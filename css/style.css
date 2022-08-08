@@ -16,10 +16,22 @@ body {
     background-color: #6EDB68;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
 /*Navbar*/
 
 .navalert-container {
-   
     top: 0;
     left: 0;
     padding-left: 0;
@@ -28,7 +40,6 @@ body {
 }
 
 .navbar {
-
     margin-bottom: 0;
     border: 0;
     width: 100%;
@@ -49,15 +60,20 @@ body {
     font-weight: bold;
 }
 
-.navbar .navbar-nav a:hover {
+.navbar .navbar-nav li:hover {
+    color: #9370DB;
     font-weight: bold;
 }
 
+.navbar-brand, .navbar li {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+}
 
-/* cta */
+/* Jumbotron/backgrounds */
 
-.callout-container {
-    height: 100vh;
+.callout-container-home {
+    height: 90vh;
     background: url(../assets/landscape.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -70,6 +86,67 @@ body {
 
     position: relative;
 }
+
+.callout-container-sheds {
+    height: 90vh;
+    background: url(../assets/flowers.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.callout-container-workshop {
+    height: 90vh;
+    background: url(../assets/workshop.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.callout-container-cafe {
+    height: 90vh;
+    background: url(../assets/cakes.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.callout-container-contact {
+    height: 90vh;
+    background: url(../assets/contact.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 
 .opaque-overlay {
     position: absolute;
@@ -184,4 +261,25 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Workshops */
+
+.workshops {
+    color: #fff;
+}
+
+.workshop-image {
+    display: inline;
+   
+}
+
+.workshops p, .workshops h4 {
+    display: inline;
+}
+
+/* Contact */
+
+.text-muted {
+    color: #fff;
 }
