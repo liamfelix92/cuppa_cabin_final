@@ -31,14 +31,6 @@ h1 {
 
 /*Navbar*/
 
-.navalert-container {
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-}
-
 .navbar {
     margin-bottom: 0;
     border: 0;
@@ -265,22 +257,21 @@ h1 {
 
 /* Workshops */
 
-.workshops {
-    color: #fff;
-}
 
-.workshop-image {
-    display: inline;
-   
-}
-
-.workshops p, .workshops h4 {
-    display: inline;
-}
 
 /* Cafe */
 
+.drinks {
+    border: 1px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.menu li {
+
+}
 
 /* Contact */
 
