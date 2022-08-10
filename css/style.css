@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+    display:flex; flex-direction:column; min-height:100vh;
 }
 
 .row {
@@ -10,6 +11,7 @@ body {
 
 .content-container {
     padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .container-wrapper {
@@ -22,7 +24,7 @@ h3,
 h4 {
     font-family: 'Caveat', cursive;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 h1 {
@@ -52,7 +54,7 @@ h1 {
     font-weight: bold;
 }
 
-.navbar .navbar-nav li:hover {
+.nav-link:hover {
     color: #9370DB;
     font-weight: bold;
 }
@@ -77,37 +79,9 @@ h1 {
     justify-content: center;
 
     position: relative;
+    padding-top: 25px;
 }
 
-.callout-container-sheds {
-    height: 90vh;
-    background: url(../assets/flowers.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-.callout-container-workshop {
-    height: 90vh;
-    background: url(../assets/workshop.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
 
 .callout-container-cafe {
     height: 90vh;
@@ -125,7 +99,7 @@ h1 {
 }
 
 .callout-container-contact {
-    height: 90vh;
+    height: 100vh;
     background: url(../assets/contact.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -209,6 +183,11 @@ h1 {
     background-color: #6EDB68;
     text-align: center;
     padding: 0;
+    position: fixed;
+    bottom: 0;
+    padding-top: auto;
+    overflow: none;
+    flex: 1;
 }
 
 #footer ul {
@@ -223,18 +202,17 @@ h1 {
     text-align: center;
     font-size: 2rem;
     clear: left;
-    margin-top: 40px;
-    margin-left: 25px;
-    margin-right: 25px;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
     color: #7b52ae;
 }
 
 /* sheds */
 
 .container-wrapper-sheds {
-    background-color: rgba(0,0,0,0.5);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 150px;
     background: url(../assets/flowers.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -244,7 +222,7 @@ h1 {
 }
 
 .sheds {
-   
+   color: #fff;
 }
 
 .shed-image img {
@@ -266,6 +244,7 @@ h1 {
 }
 
 .shed-button {
+    border: 1px solid #7b52ae;;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -276,6 +255,23 @@ h1 {
 
 /* Workshops */
 
+.container-wrapper-workshop {
+    padding-top: 25px;
+    padding-bottom: 150px;
+    background: url(../assets/dog1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.workshop-image img {
+    border: 1px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* Cafe */
