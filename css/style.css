@@ -65,7 +65,7 @@ h1 {
 /* Jumbotron/backgrounds */
 
 .callout-container-home {
-    height: 90vh;
+    height: 100vh;
     background: url(../assets/landscape.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -231,7 +231,21 @@ h1 {
 
 /* sheds */
 
+.container-wrapper-sheds {
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: url(../assets/flowers.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
 
+.sheds {
+   
+}
 
 .shed-image img {
     border: 1px;
@@ -255,7 +269,10 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: #6EDB68;
 }
+
+
 
 /* Workshops */
 
