@@ -12,12 +12,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
 <body>
+
     <!--Nav-->
     <nav class="navbar navbar-light navbar-expand-sm">
         <a href="index.html" class="navbar-brand">Cuppa Cabin</a>
@@ -33,123 +36,168 @@
                 <li class="nav-item mr-2"><a class="nav-link" href="workshop.html">Upcoming Workshops</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="#">Menu</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Get in Touch</a></li>
+            </ul>
         </div>
-        </ul>
-        </div>
-        </div>
+
+
     </nav>
-    </div>
-    <div class="container-fluid callout-container-sheds">
-        <!-- Callout -->
-        <div class="opaque-overlay"></div>
-        <div class="row g-0">
-            <div class="col-12">
-                <section class="callout jumbotron text-center sheds-jumbotron">
-                    <h1 class="jumbotron-header">Come and relax in our bespoke cabins<br>Scroll down to view them now.</h1>
-                    <hr class="hr-white">
-                    <p>Check the availability of your favourite cabin <br><button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#bookingmodal">Here!</button></p>
-                        
-                    <hr class="hr-white">
-                </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="bookingmodal" tabindex="-1" aria-label="book">
+        <div class="modal-dialog">
+            <div class="modal-content modal-xl">
+
+                <!--Simply Book widget-->
+                <script src="//widget.simplybook.it/v2/widget/widget.js"></script>
+                <script>
+                    var widget = new SimplybookWidget({
+                        "widget_type": "iframe",
+                        "url": "https:\/\/greenvalley.simplybook.it",
+                        "theme": "default",
+                        "theme_settings": {
+                            "timeline_hide_unavailable": "1",
+                            "hide_past_days": "0",
+                            "timeline_show_end_time": "0",
+                            "timeline_modern_display": "as_slots",
+                            "sb_base_color": "#6edb68",
+                            "display_item_mode": "list",
+                            "booking_nav_bg_color": "#9370db",
+                            "body_bg_color": "#6edb68",
+                            "sb_review_image": "",
+                            "dark_font_color": "#494949",
+                            "light_font_color": "#ffffff",
+                            "btn_color_1": "#9370db",
+                            "sb_company_label_color": "#6edb68",
+                            "hide_img_mode": "0",
+                            "show_sidebar": "1",
+                            "sb_busy": "#ed5f5f",
+                            "sb_available": "#6ee081"
+                        },
+                        "timeline": "modern",
+                        "datepicker": "top_calendar",
+                        "is_rtl": false,
+                        "app_config": {
+                            "allow_switch_to_ada": 0,
+                            "predefined": {
+                                "provider": "1"
+                            }
+                        }
+                    });
+                </script>
             </div>
+            <!--/Simply Book widget-->
+
         </div>
+    </div>
+    <!-- Modal -->
+
+
+    <!-- Callout -->
+    <div class="container-wrapper-sheds">
+        <section class="sheds">
+            <div class="row">
+                <div class="col-12 page-header text-center">
+                    <hr class="hr-white">
+                    <h2 class="text-uppercase">Choose from our beautiful sheds below</h2>
+                    <hr class="hr-white">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="media">
+                        <div class="shed-image">
+                            <h4>Banquet Table</h4>
+                            <img src="assets/banquet.jpg" alt="our banquet table">
+                        </div>
+                        <div class="media-body">
+
+                            <p>short write up goes here, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                                ab libero repudiandae rem incidunt reiciendis quis impedit laborum? Ratione, saepe
+                                voluptates nemo ut pariatur esse animi odio provident iure non?</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="media">
+                        <div class="shed-image">
+                            <h4>Large Shed</h4>
+                            <img src="assets/large-shed.jpg" alt="our large shed">
+                        </div>
+                        <div class="media-body">
+
+                            <p>short write up goes here, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                                ab libero repudiandae rem incidunt reiciendis quis impedit laborum? Ratione, saepe
+                                voluptates nemo ut pariatur esse animi odio provident iure non?</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="media">
+                        <div class="shed-image">
+                            <h4>Medium Shed</h4>
+                            <img src="assets/medium-shed.jpg" alt="our medium shed">
+                        </div>
+                        <div class="media-body">
+
+                            <p>short write up goes here, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                                ab libero repudiandae rem incidunt reiciendis quis impedit laborum? Ratione, saepe
+                                voluptates nemo ut pariatur esse animi odio provident iure non?</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="media">
+                        <div class="shed-image">
+                            <h4>Small Shed</h4>
+                            <img src="assets/small-shed.jpg" alt="our small shed">
+                        </div>
+                        <div class="media-body">
+
+                            <p>short write up goes here, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                                ab libero repudiandae rem incidunt reiciendis quis impedit laborum? Ratione, saepe
+                                voluptates nemo ut pariatur esse animi odio provident iure non?</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-lg btn--cta btn--red shed-button" data-toggle="modal"
+                data-target="#bookingmodal">Book Now!</button>
+        </section>
     </div>
     <!-- /.callout -->
 
-<!-- Modal -->
-<div class="modal fade" id="bookingmodal" tabindex="-1" aria-labelledby="Open the booking screen" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content modal-xl">
-        <!--Simply Book widget-->
-        <script src="//widget.simplybook.it/v2/widget/widget.js"></script>
-        <script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/greenvalley.simplybook.it","theme":"default","theme_settings":{"timeline_hide_unavailable":"1","hide_past_days":"0","timeline_show_end_time":"0","timeline_modern_display":"as_slots","sb_base_color":"#6edb68","display_item_mode":"list","booking_nav_bg_color":"#9370db","body_bg_color":"#6edb68","sb_review_image":"","dark_font_color":"#494949","light_font_color":"#ffffff","btn_color_1":"#9370db","sb_company_label_color":"#6edb68","hide_img_mode":"0","show_sidebar":"1","sb_busy":"#ed5f5f","sb_available":"#6ee081"},"timeline":"modern","datepicker":"top_calendar","is_rtl":false,"app_config":{"allow_switch_to_ada":0,"predefined":{"provider":"1"}}});</script>    </div>
-        <!--/Simply Book widget-->
-    </div>
-</div>
-<!-- Modal -->
-    <!-- Sheds -->
-    <div class="container-wrapper">
-        <div class="container content-container">
-            <section class="sheds">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="media">
-                        <div class="shed-image">
-                            <h4>Banquet Table</h4>
-                            <img src="assets/banquet.jpg" height="300" width="300">
-                        </div>  
-                                <div class="media-body">
-                                
-                                <p>short write up goes here, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ab libero repudiandae rem incidunt reiciendis quis impedit laborum? Ratione, saepe voluptates nemo ut pariatur esse animi odio provident iure non?</p>
-                                
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="media">
-                        <div class="shed-image">
-                            <h4>Large Shed</h4>
-                            <img src="assets/large-shed.jpg" height="300" width="300">
-                        </div>  
-                                <div class="media-body">
-                                
-                                <p>short write up goes here, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ab libero repudiandae rem incidunt reiciendis quis impedit laborum? Ratione, saepe voluptates nemo ut pariatur esse animi odio provident iure non?</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="media">
-                            <div class="shed-image">
-                                <h4>Medium Shed</h4>
-                                <img src="assets/medium-shed.jpg" height="300" width="300">
-                            </div>  
-                                    <div class="media-body">
-                                    
-                                    <p>short write up goes here, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ab libero repudiandae rem incidunt reiciendis quis impedit laborum? Ratione, saepe voluptates nemo ut pariatur esse animi odio provident iure non?</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="media">
-                            <div class="shed-image">
-                                <h4>Small Shed</h4>
-                                <img src="assets/small-shed.jpg" height="300" width="300">
-                            </div>  
-                                    <div class="media-body">
-                                    
-                                    <p>short write up goes here, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ab libero repudiandae rem incidunt reiciendis quis impedit laborum? Ratione, saepe voluptates nemo ut pariatur esse animi odio provident iure non?</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        <button class="btn btn-lg btn--cta btn--red shed-button" data-toggle="modal" data-target="#bookingmodal">Book Now!</button> 
-            </section>
 
-        </div>
-    </div>
 
-    <!-- /sheds -->
+
     <!-- Footer-->
     <footer>
-        <section id="footer">
+        <div id="footer">
             <div class="row g-0">
                 <div class="col-12">
-                    <ul>
-                        <li><a href="https://www.facebook.com/greenvalley.exeter" target="_blank"><i
-                                    class="fa-brands fa-facebook"></i></li>
-                        <li><a href="https://www.instagram.com/greenvalley.exeter" target="_blank"><i
-                                    class="fa-brands fa-instagram"></i></li>
-                    </ul>
+
+                    <a href="https://www.facebook.com/greenvalley.exeter" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/greenvalley.exeter" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+
                 </div>
 
             </div>
-        </section>
+        </div>
     </footer>
     <!-- /Footer-->
 </body>
