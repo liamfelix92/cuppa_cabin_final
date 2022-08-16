@@ -323,7 +323,7 @@ h1 {
 
 /* Media Queries */
 
-@media only screen and (max-width: 373px) {
+@media only screen and (max-width: 450px) {
     .callout-container-home {
         height: 50%;
     }
