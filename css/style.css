@@ -331,8 +331,8 @@ h1 {
 
 @media only screen and (max-width: 330px) {
     .shed-image img {
-        height: 75vw;
-        width: 75vw;
+        height: 75%;
+        width: 75%;
     }
 
     .container-wrapper-sheds {
@@ -343,14 +343,14 @@ h1 {
 
 @media only screen and (max-width: 440px) {
     .workshop-image img {
-        height: 50vw;
-        width: 75vw;
+        height: 50%;
+        width: 75%;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .text-entry {
-        width: 75vw;
+        width: 75%;
     }
 
     #message {
