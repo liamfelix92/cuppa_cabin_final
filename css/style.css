@@ -84,7 +84,7 @@ h1 {
 
 
 .callout-container-cafe {
-    height: 90vh;
+    height: 100vh;
     background: url(../assets/cakes.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -212,6 +212,7 @@ h1 {
 /* sheds */
 
 .container-wrapper-sheds {
+    height: 100%;
     padding-top: 25px;
     padding-bottom: 150px;
     background: url(../assets/flowers.jpg) no-repeat center center fixed; 
@@ -259,6 +260,7 @@ h1 {
 /* Workshops */
 
 .container-wrapper-workshop {
+    height: 100%;
     padding-top: 25px;
     padding-bottom: 150px;
     background: url(../assets/workshopbg.jpg) no-repeat center center fixed; 
