@@ -68,7 +68,7 @@ h1 {
 
 .callout-container-home {
     height: 100vh;
-    background: url(../assets/landscape.jpg) no-repeat center center fixed; 
+    background: url(../assets/landscape.webp) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -100,7 +100,7 @@ h1 {
 
 .callout-container-contact {
     height: 100vh;
-    background: url(../assets/contact.jpg) no-repeat center center fixed; 
+    background: url(../assets/contact.webp) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -263,7 +263,7 @@ h1 {
     height: 100%;
     padding-top: 25px;
     padding-bottom: 150px;
-    background: url(../assets/workshopbg.jpg) no-repeat center center fixed; 
+    background: url(../assets/workshop.webp) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
