@@ -305,22 +305,37 @@ h1 {
 
 /* Cafe */
 
-.drinks {
-    text-decoration: none;
+.container-wrapper-menu {
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 150px;
+    background: url(../assets/cakes.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
 }
 
-.drink ul {
-    text-decoration: none;
+.menuframe {
+    height: 75%;
+    width: 75%;
+    margin:0px;
+    padding:0px;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menuframe img {
+    margin: auto;
+    display: block;
 }
 
 /* Contact */
 
 .text-muted {
     color: #fff;
-}
-
-.contact-form {
-   
 }
 
 /* Media Queries */
@@ -352,7 +367,7 @@ h1 {
 
 @media only screen and (max-width: 500px) {
     .text-entry {
-        width: 75%;
+        width: 100%;
     }
 
     #message {
