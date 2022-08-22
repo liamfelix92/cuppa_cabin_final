@@ -328,6 +328,11 @@ h1 {
 
 }
 
+.btn-download {
+    width: 10%;
+    height: 10%;
+}
+
 
 
 /* Contact */
@@ -378,7 +383,6 @@ h1 {
        height: 100vh;
     }
 
-    .menu-image {
-        display: none;
-    }
+ 
 }
+
