@@ -299,13 +299,22 @@ h1 {
      text-align: center;
  }
  
- .shed-button {
+ .workshop-button {
      border: 1px solid #7b52ae;;
      display: block;
      margin-left: auto;
      margin-right: auto;
      background-color: #6EDB68;
  }
+
+.enquiry-modal {
+    padding: 25px;
+}
+
+.workshop-form {
+    text-align: center;
+    padding: 25px;
+}
 
 /* Cafe */
 
