@@ -8,6 +8,10 @@ body {
      color: black;
 }
 
+a:hover {
+    color: #9370DB;
+}
+
 .row {
     margin: 0;
 }
@@ -351,7 +355,7 @@ h1 {
 
 }
 
-.btn-download {
+.menu a {
     border: 1px solid #7b52ae;
     display: block;
     margin-top: 25px;
@@ -359,11 +363,7 @@ h1 {
     margin-right: auto;
     background-color: #6EDB68;
     text-decoration: none;
-    
-}
-
-.download-button a {
-    text-decoration: none;
+    color: black;
 }
 
 
