@@ -91,6 +91,7 @@ h1 {
 
     position: relative;
     padding-top: 25px;
+    background-color: black;
 }
 
 
@@ -107,6 +108,7 @@ h1 {
     justify-content: center;
 
     position: relative;
+    background-color: black;
 }
 
 .callout-container-contact {
@@ -231,7 +233,7 @@ h1 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+    background-color: black;
 }
 
 .sheds {
@@ -279,6 +281,7 @@ h1 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: black;
 }
 
 .workshop-image img {
@@ -341,7 +344,7 @@ h1 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+    background-color: black;
 }
 
 
