@@ -356,6 +356,7 @@ h1 {
 /* Contact */
 
 .callout-container-contact {
+    background-size: cover;
     height: 100%;
     background: url(../assets/contact.webp) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -374,9 +375,7 @@ h1 {
     color: #fff;
 }
 
-.contact-form {
-    height: 100%;
-}
+
 
 /* Media Queries */
 
@@ -419,6 +418,11 @@ h1 {
     #message {
         width: 100%;
     }
+
+    .callout-container-contact {
+        height: 100vh;
+    }
+
 }
 
 @media (orientation: landscape) {
