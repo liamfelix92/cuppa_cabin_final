@@ -65,11 +65,6 @@ h1 {
     font-weight: bold;
 }
 
-.nav-link:hover {
-    color: #9370DB;
-    font-weight: bold;
-}
-
 .navbar-brand, .navbar li {
     font-family: 'Caveat', cursive;
     font-size: 1.5rem;
@@ -111,20 +106,6 @@ h1 {
     background-color: black;
 }
 
-.callout-container-contact {
-    height: 100vh;
-    background: url(../assets/contact.webp) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
 
 
 .opaque-overlay {
@@ -377,6 +358,10 @@ h1 {
     color: #fff;
 }
 
+.contact-form {
+    height: 100%;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 450px) {
@@ -420,9 +405,23 @@ h1 {
     }
 }
 
+@media (orientation: landscape) {
+    .text-entry {
+        width: 100%;
+    }
+
+    #message {
+        width: 100%;
+    }
+
+  
+}
+
 @media only screen and (max-width: 530px) {
     .container-wrapper-menu {
        height: 100vh;
     }
 }
+
+
 
