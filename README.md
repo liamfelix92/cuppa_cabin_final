@@ -43,8 +43,9 @@
 ![Cuppa Cabin Sign](/assets/readme/sign.JPG)
 
 ### Typography
-    Google Fonts - Roboto for the main body text and Caveat for headings and links. 
-    Font Awesome - Used for Facebook and Instagram links in footer. 
+    Google Fonts was used to import the two fonts used accross the website. Caveat was used for headings and links as I was looking for an easy to read cursive or handwritten font. A number of different options were attempted, with many which seemed fitting at desktop view not suitable for viewing on smaller devices. Caveat sat perfectly inbetween seeming handwritten but completely legible at all sizes.  Roboto was selected for the main body text due to its clean design and ease of reading. Allows for the main body text to be clear and understandable accross all pages. 
+
+    Font Awesome was used for the footer icons displaying links to Instagram and Facebook. 
 
 ## Features
     
