@@ -17,7 +17,18 @@
    * As a user I want to be able to check what food and drink they offer before visiting. 
 
 ### Wireframes
-    include screenshots of your wireframes (consider the markdown table format) 
+    The Wireframes were produced using Balsamiq. The final site varies from the wireframes due to developments that occurred during the building process.
+
+#### Home Page
+![Home Page Wireframe](/assets/readme/Homepage.png)
+#### Sheds Page
+![Sheds Page Wireframe](/assets/readme/Sheds.png)
+#### Workshop Page
+![Workshop Page Wireframe](/assets/readme/Workshops.png)
+#### Menu Page
+![Menu Page Wireframe](/assets/readme/Menu.png)
+#### Contact Page
+![Contact Page Wireframe](/assets/readme/Contact.png)
 
 ### Colour Scheme
     The colour scheme was requested by the owner of the Cuppa Cabin as they match their existing branding, including loyalty cards
