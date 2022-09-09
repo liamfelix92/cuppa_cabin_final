@@ -25,6 +25,12 @@
     matching the coffee machine and existing sign at the premises. I experimented with adding other colours to try and help accentuate, which began to make the 
     layout look untidy. Using only the three allowed for a bold and clean look, making information very clear. 
 
+![Colour scheme](/assets/readme/colours.JPG)
+
+![Cuppa Cabin Flyer](/assets/readme/flyers.JPG)
+
+![Cuppa Cabin Sign](/assets/readme/sign.JPG)
+
 ### Typography
     Google Fonts - Roboto for the main body text and Caveat for headings and links. 
     Font Awesome - Used for Facebook and Instagram links in footer. 
