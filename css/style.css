@@ -376,6 +376,10 @@ h1 {
     position: relative;
 }
 
+#contact-body {
+    height: 100vh;
+}
+
 .text-muted {
     color: #fff;
 }
@@ -425,6 +429,8 @@ h1 {
     }
 
 }
+
+
 
 @media (orientation: landscape) {
     .text-entry {
