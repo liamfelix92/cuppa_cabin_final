@@ -92,7 +92,7 @@ The home page also includes an interactive map imported from Google Maps showing
 
 The main body of the sheds page is used to display an image of each available shed to book and an explaination of the suggested numbers. This is done on a responsive grid system which lays out the information based on the device being used. This is placed on a dark background to match the opaque nature of the hero image for consistency across the site.
 
-![Sheds Main Body] (we're going to be redoing this section)
+![Sheds Main Body](/assets/readme/sheds-images.JPG)
 
 #### Booking Modal
 
@@ -106,13 +106,13 @@ The booking modal's content is supplied by SimplyBook's Widget services, this is
 
 The main body of the workshop page is used to display information for the upcoming workshops being ran, including their price. This is done on a responsive grid system which lays out the information based on the device being used. This is placed on a dark background to match the opaque nature of the hero image for consistency across the site.
 
-![Workshop Main Body] (we're going to be redoing this section)
+![Workshops Main Body](/assets/readme/workshops-images.JPG)
 
 #### Enquiry Modal
 
 The modal is used for an enquiry form. The form includes checkboxes, allowing the visitor to enquire about multiple workshops at once. 
 
-![Workshop Modal] (we're going to be redoing this section)
+![Workshops Modal](/assets/readme/workshop-modal.JPG)
 
 ### Menu Page
 
