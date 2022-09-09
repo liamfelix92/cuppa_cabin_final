@@ -11,14 +11,16 @@
    * As a user I want to be able to contact the business so that I can enquire about dietry options. 
    * As a user I want to be able to plan my trip for peace of mind. 
    * As a user I want to be able to see what other customers think before deciding to visit. 
-   * As a user I want to be able to check what food and drink they offer before visiting.  
+   * As a user I want to be able to check what food and drink they offer before visiting. 
+
+### Wireframes
+    include screenshots of your wireframes (consider the markdown table format) 
 ### Color Scheme
-    does it count if the business chose the colours? perhaps use coolors.co? to generate an image palette
+    The colour scheme was requested by the owner of the Cuppa Cabin as they match the existing branding 
 ### Typography
     Google Fonts - Roboto for the main body text and Caveat for headings and links. 
     Font Awesome - Used for Facebook and Instagram links in footer. 
-### Wireframes
-     include screenshots of your wireframes (consider the markdown table format)
+
 ## Features
     
 ### Existing Features
