@@ -49,10 +49,20 @@
 
 ## Features
     This website has standard features such as a navigational bar and footer, features which internet users will be familiar with. This allows for ease of navigation and comfortable user experience. 
+    
+
 ### Existing Features
+
 #### Home Page
+
 ##### Navigational Bar
+
 The navbar for each page is responsive and collapses into a hamburger at mobile screens and horizontal orientation on certain devices. The title is a link to return to the home page and when a page is active, it is displayed in bold for ease of navigation. 
+
+![Navbar full](/assets/readme/navbar-desktop.JPG)
+
+![Navbar collapsed](/assets/readme/navbar-collapsed.JPG)
+
 ### Features Left to Implement
 * Blog 
 * Gallery for shed takeover
