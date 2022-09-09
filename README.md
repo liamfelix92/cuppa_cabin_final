@@ -128,10 +128,13 @@ The contact page displays a clean contact form to easily enquire about anything 
 
 
 ### Features Left to Implement
-* Blog 
-* Gallery for shed takeover
+
+* Blog.
+* Gallery for shed takeover.
 * Direct booking for workshops.
+
 ## Technologies Used
+
 * HTML5
 * CSS 
 * Bootstrap 4.5
@@ -139,6 +142,11 @@ The contact page displays a clean contact form to easily enquire about anything 
 * Google Fonts
 * Font Awesome
 * Google Maps
+* Chrome Dev Tools
+* Gitpod
+* Github
+* Am I Responsive?
+* Balsamiq
 
 ## Testing
 
