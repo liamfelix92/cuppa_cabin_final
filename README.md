@@ -81,9 +81,12 @@
     ~~~~ 
     and the url to clone the site. 
 ## Credits
-    Inspiration was taken from the HTMl and CSS lessons with Code Institute. 
+* Issues were often partially resolved through stackoverflow.com, including the helpful forum members. 
+* 
+* Tasha TJ's ReadMe was instrumental in understanding the completion of this document. 
 ### Content
-    list out any URLs or links where you might've borrowed a snippet of code, or element
+* Hamburger menu and layout inspired by Whiskey Drop lesson
+* 
 ### Media
     list out any URLs for images/videos/audios you've borrowed from online (Markdown Table works best here!)
 ### Acknowledgements
