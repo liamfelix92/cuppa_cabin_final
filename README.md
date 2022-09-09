@@ -2,7 +2,7 @@
     The Cuppa Cabin is a website to promote and facilitate the business The Cuppa Cabin, which offers food and drink as well as the rental of cabins to relax in.
     This site is intended to bring new customers to the business, but also offer returning customers simple booking options. 
     
-    <img src="assets/felting.webp" alt="Alt text" title="Optional title">
+    ![Alt text](/assets/art1.jpg "Optional title")
 ## UX
     
 ### Target Audience
