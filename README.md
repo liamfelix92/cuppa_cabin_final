@@ -1,5 +1,6 @@
 # Portfolio Project 1 - HTML/CSS Essential
-    The Cuppa Cabin is a website to promote and facilitate the business The Cuppa Cabin, which offers food and drink as well as the rental of cabins to relax in. 
+    The Cuppa Cabin is a website to promote and facilitate the business The Cuppa Cabin, which offers food and drink as well as the rental of cabins to relax in.
+    This site is intended to bring new customers to the business, but also offer returning customers simple booking options. 
     
     *amiresponsive screenshot*
 ## UX
