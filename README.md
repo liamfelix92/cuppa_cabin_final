@@ -49,19 +49,24 @@
 
 ## Features
     This website has standard features such as a navigational bar and footer, features which internet users will be familiar with. This allows for ease of navigation and comfortable user experience. 
-    
 
-### Existing Features
 
-#### Home Page
+### Home Page
 
-##### Navigational Bar
+#### Navigational Bar
 
 The navbar for each page is responsive and collapses into a hamburger at mobile screens and horizontal orientation on certain devices. The title is a link to return to the home page and when a page is active, it is displayed in bold for ease of navigation. 
 
 ![Navbar full](/assets/readme/navbar-desktop.JPG)
 
 ![Navbar collapsed](/assets/readme/navbar-collapsed.JPG)
+
+
+#### Hero Image
+
+The primary use for the home page is to display the basic information for the Cuppa Cabin, including the address and opening hours. This also includes a link to the Sheds page to allow for frequent visitors easy access to the booking modal. 
+
+![Home Hero Image](/assets/readme/hero-image.JPG)
 
 ### Features Left to Implement
 * Blog 
