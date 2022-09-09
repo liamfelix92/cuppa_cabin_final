@@ -48,7 +48,7 @@
     Font Awesome was used for the footer icons displaying links to Instagram and Facebook. 
 
 ## Features
-    
+    This website has standard features such as a navigational bar and footer, features which internet users will be familiar with. This allows for ease of navigation and comfortable user experience. 
 ### Existing Features
 * Shed booking modal 
     * Contact form 
