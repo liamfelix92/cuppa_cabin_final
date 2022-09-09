@@ -90,15 +90,30 @@ The home page also includes an interactive map imported from Google Maps showing
 
 #### Main Body
 
-The main body of the sheds page is used to display an image of each available shed to book and an explaination of the suggested numbers. This is placed on a dark background to match the opaque nature of the hero image for consistency across the site.
+The main body of the sheds page is used to display an image of each available shed to book and an explaination of the suggested numbers. This is done on a responsive grid system which lays out the information based on the device being used. This is placed on a dark background to match the opaque nature of the hero image for consistency across the site.
 
-![Home Google Map] (we're going to be redoing this section)
+![Sheds Main Body] (we're going to be redoing this section)
 
 #### Booking Modal
 
 The booking modal's content is supplied by SimplyBook's Widget services, this is a live booking service which the Cuppa Cabin currently uses. It allows the visitor to book a time slot for their desired shed with ease. 
 
 ![SimplyBook Widget](/assets/readme/simplybook-modal.JPG)
+
+### Workshops Page
+
+#### Main Body
+
+The main body of the workshop page is used to display information for the upcoming workshops being ran, including their price. This is done on a responsive grid system which lays out the information based on the device being used. This is placed on a dark background to match the opaque nature of the hero image for consistency across the site.
+
+![Workshop Main Body] (we're going to be redoing this section)
+
+#### Enquiry Modal
+
+The modal is used for an enquiry form. The form includes checkboxes, allowing the visitor to enquire about multiple workshops at once. 
+
+![Workshop Modal] (we're going to be redoing this section)
+
 
 
 ### Features Left to Implement
