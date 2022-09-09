@@ -79,6 +79,15 @@ The home page also includes an interactive map imported from Google Maps showing
 
 ![Home Google Map](/assets/readme/google-map.JPG)
 
+### Sheds Page
+
+#### Main Body
+
+The main body of the sheds page is used to display an image of each available shed to book and an explaination of the suggested numbers. This is placed on a dark background to match the opaque nature of the hero image for consistency across the site.
+
+![Home Google Map] (we're going to be redoing this section)
+
+
 ### Features Left to Implement
 * Blog 
 * Gallery for shed takeover
