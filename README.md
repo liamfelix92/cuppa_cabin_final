@@ -141,17 +141,27 @@ The contact page displays a clean contact form to easily enquire about anything 
 * Google Maps
 
 ## Testing
-    For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
 ## Deployment
-    Deployment was through GitHub pages to https://liamfelix92.github.io/cuppa_cabin_final/.
-### Local Deployment
-    1. Go to https://github.com/liamfelix92/cuppa_cabin_final
-    2. Click "Code" dropdown and copy url 
-    3. Open new Git repository 
-    4. use ~~~~
-    git remote add
-    ~~~~ 
-    and the url to clone the site. 
+
+The site was deployed to GitHub pages.
+
+### Deploy to GitHub Pages
+
+1. Navigate to the settings tab of the GitHub repository.
+2. In settings, navigate to the pages tab. 
+3. Go to source, select "master" branch and select "save"
+4. The page will refresh and display a detailed ribbon indicating deployment. 
+
+### Copy the Repository
+
+1. Access GitHub and locate the repository
+2. Click "fork", found on right hand side, to create a copy of the original
+
+### Creating a Local Clone
+
 ## Credits
 * Issues were often partially resolved through stackoverflow.com, including the helpful forum members. 
 * 
