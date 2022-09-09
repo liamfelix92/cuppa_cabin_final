@@ -16,7 +16,8 @@
 ### Wireframes
     include screenshots of your wireframes (consider the markdown table format) 
 ### Color Scheme
-    The colour scheme was requested by the owner of the Cuppa Cabin as they match the existing branding 
+    The colour scheme was requested by the owner of the Cuppa Cabin as they match their existing branding, including loyalty cards. 
+    This included a Malachite green and Medium purple with white contrast. *give reasons why zoe picked these colours* 
 ### Typography
     Google Fonts - Roboto for the main body text and Caveat for headings and links. 
     Font Awesome - Used for Facebook and Instagram links in footer. 
