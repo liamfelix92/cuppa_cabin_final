@@ -61,6 +61,11 @@ The navbar for each page is responsive and collapses into a hamburger at mobile 
 
 ![Navbar collapsed](/assets/readme/navbar-collapsed.JPG)
 
+#### Footer
+
+The footer for each page is simple and includes links to the Cuppa Cabin's social media pages on Instagram and Facebook. 
+
+![Footer](/assets/readme/footer.JPG)
 
 #### Hero Image
 
