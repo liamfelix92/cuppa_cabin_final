@@ -313,6 +313,13 @@ h1 {
 .workshop-form {
     text-align: center;
     padding: 25px;
+    background-color: #6EDB68;
+}
+
+.workshop-form-button {
+    font-weight: bold;
+    text-align: center;
+    background-color: #9370DB;
 }
 
 /* Cafe */
