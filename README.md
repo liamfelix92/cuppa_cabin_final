@@ -120,6 +120,13 @@ This page displays the current menu for the Cuppa Cabin so that visitors can vie
 
 ![Menu Page](/assets/readme/menu-page.JPG)
 
+### Contact Page 
+
+The contact page displays a clean contact form to easily enquire about anything in regards to the cuppa cabin. It sits at the end of the links as a natural end to the user journey, in case any of their questions have not been answered by the information displayed. For this project, the submit validates the form only. 
+
+![Contact Page](/assets/readme/contact-form.JPG)
+
+
 ### Features Left to Implement
 * Blog 
 * Gallery for shed takeover
