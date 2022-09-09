@@ -176,13 +176,23 @@ The site was deployed to GitHub pages.
 ![Local] (screenshot to be made once no more updates to repository)
 
 ## Credits
-* Issues were often partially resolved through stackoverflow.com, including the helpful forum members. 
-* 
-* Tasha TJ's ReadMe was instrumental in understanding the completion of this document. 
+
+
+
+
+
 ### Content
-* Hamburger menu and layout inspired by Whiskey Drop lesson
-* 
+
+* Issues were often resolved through stackoverflow.com, including posts from many helpful forum members. 
+* Other issues were resolved by returning to CI lessons and taking inspiration for fixes. 
+* Hamburger menu and layout inspired by Whiskey Drop lessons on CI.
+* Booking widget supplied by SimplyBook. 
+* Tasha TJ's ReadMe was instrumental in understanding the format and content of this document. 
+
 ### Media
-    list out any URLs for images/videos/audios you've borrowed from online (Markdown Table works best here!)
+
+All photos were supplied by Zoe Padfield of the Cuppa Cabin, full permission of use of these images given. 
+
 ### Acknowledgements
-    list out any acknowledgements you have, if any... tutor support? fellow Slack student help? spouse, loved one, family member, etc.
+
+CI Mentors Tim Nelson and Chris Quinn were invaluable in getting this project to fruition.
