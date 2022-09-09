@@ -13,8 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
@@ -35,156 +37,171 @@
                 <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Get in Touch</a></li>
             </ul>
         </div>
-        
-        
+
+
     </nav>
-        <!-- Modal -->
-<div class="modal fade" id="enquirymodal" tabindex="-1" aria-label="book">
-    <div class="modal-dialog">
-      <div class="modal-content modal-xl">
-        
-        <form class="workshop-form" method="post" action="#" class="enquiry-form">
-            <div class="form-group text-entry">
-                <label for="name">Your Name</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Your name" required>
+    <!-- Modal -->
+    <aside class="modal fade" id="enquirymodal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content modal-xl">
+
+                <form class="workshop-form enquiry-form" method="post" action="#">
+                    <div class="form-group text-entry">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="name"
+                            placeholder="Your name" required>
+                    </div>
+                    <div class="form-group text-entry">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="Enter email" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="workshop-selection">Which workshop are you interested in?</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="workshop1">
+                            <label class="form-check-label" for="workshop1">
+                                Willow Weaving - Sunday 4th September
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="workshop2">
+                            <label class="form-check-label" for="workshop2">
+                                Spanglewangle - Sunday 11th September
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="workshop3">
+                            <label class="form-check-label" for="workshop3">
+                                Felting - Sunday 18th September
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="workshop4">
+                            <label class="form-check-label" for="workshop4">
+                                Pre Loved Jewellery - Sunday 25th September
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn workshop-form-button">Submit</button>
+                </form>
+
             </div>
-            <div class="form-group text-entry">
-                <label for="email">Email Address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-                <label for="workshop-selection">Which workshop are you interested in?</label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="workshop1">
-                    <label class="form-check-label" for="workshop1">
-                      Willow Weaving - Sunday 4th September
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="workshop2">
-                    <label class="form-check-label" for="workshop2">
-                      Spanglewangle - Sunday 11th September
-                    </label>
-                  </div>
-              
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="workshop3">
-                <label class="form-check-label" for="workshop3">
-                  Felting - Sunday 18th September
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="workshop4">
-                <label class="form-check-label" for="workshop4">
-                  Pre Loved Jewellery - Sunday 25th September
-                </label>
-              </div>
-          </div>
-          <button type="submit" class="btn workshop-form-button">Submit</button>
-          </form>
-          
-    </div>
-</div>
-</div>
-<!-- Modal -->
+    </aside>
+    
+    <!-- Modal -->
     <!--Container workshops-->
     <div class="container-wrapper-workshop">
-            <section class="workshops">
-                <div class="row">
-                    <div class="col-12 page-header text-center">
-                        <hr class="hr-white">
-                        <h2 class="text-uppercase">Learn a new skill or make something beautiful</h2>
-                        <p class="header-text">We run a number of exciting workshops at The Cuppa Cabin and are always offering new options, take a look at what we're offering this month:</p>
-                        <hr class="hr-white">
-                    </div>
-                    </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="media">
-                        <div class="workshop-image">
-                            <h4>Needle Felting - Toadstool</h4>
-                            <img src="assets/felting.webp" alt="">
-                        </div>  
-                                <div class="media-body">
-                                
-                                <p class="image-text">Learn the art of Needle Felting with Lynne from So To Felt in the relaxed setting of Greenvalley.
-                                    £25 per person.
-                                    Each workshop lasts approximately 2 hours (plus coffee break) and includes tuition, materials and a drink from the Cuppa Cabin.
-                                    Suitable for children over 10, but must be supervised by an adult.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="media">
-                        <div class="workshop-image">
-                            <h4>Willow Weaving - Sunflowers</h4>
-                            <img src="assets/weaving.webp" alt="">
-                        </div>  
-                                <div class="media-body">
-                                
-                                <p class="image-text">Spend a day with Richard from Windrush Willow learning the skills needed to create Decorations for your garden.
-                                    £75 per person.
-                                    All materials and tools included in price; as well as drinks throughout the day from the Cuppa Cabin. Food available to purchase from the Cuppa Cabin but feel free to bring a packed lunch.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
+        <section class="workshops">
+            <div class="row">
+                <div class="col-12 page-header text-center">
+                    <hr class="hr-white">
+                    <h2 class="text-uppercase">Learn a new skill or make something beautiful</h2>
+                    <p class="header-text">We run a number of exciting workshops at The Cuppa Cabin and are always
+                        offering new options, take a look at what we're offering this month:</p>
+                    <hr class="hr-white">
+                </div>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="media">
-                    <div class="workshop-image">
-                        <h4>Preloved Jewellery</h4>
-                        <img src="assets/jewellery.webp" alt="">
-                    </div>  
-                            <div class="media-body">
-                            
-                            <p class="image-text">Learn simple stringing techniques, remove broken clasps and learn how to add or change fastenings to make your preloved jewellery wearable again. £25 per person.
-                                Students will need to bring their old and broken jewellery to the workshop.
-                                Tools and materials included to use on the day. A range of beads will be available to add to your work but you can bring your own.
-                                </p>
-                            
+                        <div class="workshop-image">
+                            <h4>Needle Felting - Toadstool</h4>
+                            <img src="assets/images/felting.webp" alt="">
+                        </div>
+                        <div class="media-body">
+
+                            <p class="image-text">Learn the art of Needle Felting with Lynne from So To Felt in the
+                                relaxed setting of Greenvalley.
+                                £25 per person.
+                                Each workshop lasts approximately 2 hours (plus coffee break) and includes tuition,
+                                materials and a drink from the Cuppa Cabin.
+                                Suitable for children over 10, but must be supervised by an adult.</p>
+
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="media">
-                    <div class="workshop-image">
-                        <h4>Spanglewangle Crafty Sessions</h4>
-                        <img src="assets/spagle.webp" alt="">
-                    </div>  
-                            <div class="media-body">
-                            
-                            <p class="image-text">A day of arts and crafts just for the children! Fab fun with fake fur, come make tails, ears & more. Or whatever your little one fancies! £6.50 per child, all materials included.</p>
-                            
+                        <div class="workshop-image">
+                            <h4>Willow Weaving - Sunflowers</h4>
+                            <img src="assets/images/weaving.webp" alt="">
+                        </div>
+                        <div class="media-body">
+
+                            <p class="image-text">Spend a day with Richard from Windrush Willow learning the skills
+                                needed to create Decorations for your garden.
+                                £75 per person.
+                                All materials and tools included in price; as well as drinks throughout the day from the
+                                Cuppa Cabin. Food available to purchase from the Cuppa Cabin but feel free to bring a
+                                packed lunch.</p>
+
                         </div>
                     </div>
                 </div>
-              </div> 
-              <button class="btn btn-lg btn--cta btn--red shed-button" data-toggle="modal" data-target="#enquirymodal">Book Now!</button>
-              </section> 
-        </div>
-        
-         
-    
 
- 
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="media">
+                        <div class="workshop-image">
+                            <h4>Preloved Jewellery</h4>
+                            <img src="assets/images/jewellery.webp" alt="">
+                        </div>
+                        <div class="media-body">
+
+                            <p class="image-text">Learn simple stringing techniques, remove broken clasps and learn how
+                                to add or change fastenings to make your preloved jewellery wearable again. £25 per
+                                person.
+                                Students will need to bring their old and broken jewellery to the workshop.
+                                Tools and materials included to use on the day. A range of beads will be available to
+                                add to your work but you can bring your own.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="media">
+                        <div class="workshop-image">
+                            <h4>Spanglewangle Crafty Sessions</h4>
+                            <img src="assets/images/spagle.webp" alt="">
+                        </div>
+                        <div class="media-body">
+
+                            <p class="image-text">A day of arts and crafts just for the children! Fab fun with fake fur,
+                                come make tails, ears & more. Or whatever your little one fancies! £6.50 per child, all
+                                materials included.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-lg btn--cta btn--red shed-button" data-toggle="modal"
+                data-target="#enquirymodal">Book Now!</button>
+        </section>
+    </div>
 
 
-     <!-- Footer-->
-     <footer>
+
+
+
+
+
+    <!-- Footer-->
+    <footer>
         <div id="footer">
             <div class="row g-0">
                 <div class="col-12">
-                    
-                        <a href="https://www.facebook.com/greenvalley.exeter" target="_blank"><i
-                                    class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/greenvalley.exeter" target="_blank"><i
-                                    class="fa-brands fa-instagram"></i></a>
-                    
+
+                    <a href="https://www.facebook.com/greenvalley.exeter" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/greenvalley.exeter" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+
                 </div>
 
             </div>
@@ -192,12 +209,12 @@
     </footer>
     <!-- /Footer-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-</script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
 </body>
