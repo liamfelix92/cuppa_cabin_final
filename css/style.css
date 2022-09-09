@@ -217,6 +217,10 @@ h1 {
     background-color: black;
 }
 
+.header-text {
+    padding: auto;
+}
+
 .sheds {
    color: #fff;
 }
@@ -236,7 +240,7 @@ h1 {
     text-align: center;
 }
 
-.sheds p {
+.image-text {
     margin-top: 35px;
     text-align: center;
 }
