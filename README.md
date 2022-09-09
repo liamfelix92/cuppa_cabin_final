@@ -4,7 +4,10 @@
     
     *amiresponsive screenshot*
 ## UX
-    The site was thought out with a mobile-first design as this is the type of device I expect the user to most often visit the website from. I chose to use Bootstrap 4.5 as it allowed for a clean interface and layout of information. The site is designed with minimal features to focus on those which most directly benefit the user experience. 
+    
+### Target Audience
+    Existing customers, tourists, 
+
 ### User Stories
    * As a user I would like to ensure my favourite shed is available so that I can enjoy my visit more. 
    * As a user I want to be able to enquire about upcoming workshops so that I can save time. 
@@ -15,9 +18,11 @@
 
 ### Wireframes
     include screenshots of your wireframes (consider the markdown table format) 
-### Color Scheme
-    The colour scheme was requested by the owner of the Cuppa Cabin as they match their existing branding, including loyalty cards. 
-    This included a Malachite green and Medium purple with white contrast. *give reasons why zoe picked these colours* 
+
+### Colour Scheme
+    The colour scheme was requested by the owner of the Cuppa Cabin as they match their existing branding, including loyalty cards
+    This included a Malachite green
+
 ### Typography
     Google Fonts - Roboto for the main body text and Caveat for headings and links. 
     Font Awesome - Used for Facebook and Instagram links in footer. 
