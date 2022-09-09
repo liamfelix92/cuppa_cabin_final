@@ -73,6 +73,12 @@ The primary use for the home page is to display the basic information for the Cu
 
 ![Home Hero Image](/assets/readme/hero-image.JPG)
 
+#### Map
+
+The home page also includes an interactive map imported from Google Maps showing the location of the Cuppa Cabin. This includes the option to view a larger map which opens in a new tab to allow customers to generate directions. 
+
+![Home Google Map](/assets/readme/google-map.JPG)
+
 ### Features Left to Implement
 * Blog 
 * Gallery for shed takeover
