@@ -87,6 +87,12 @@ The main body of the sheds page is used to display an image of each available sh
 
 ![Home Google Map] (we're going to be redoing this section)
 
+#### Booking Modal
+
+The booking modal's content is supplied by SimplyBook's Widget services, this is a live booking service which the Cuppa Cabin currently uses. It allows the visitor to book a time slot for their desired shed with ease. 
+
+![SimplyBook Widget](/assets/readme/simplybook-modal.JPG)
+
 
 ### Features Left to Implement
 * Blog 
