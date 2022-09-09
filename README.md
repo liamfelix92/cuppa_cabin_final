@@ -21,7 +21,9 @@
 
 ### Colour Scheme
     The colour scheme was requested by the owner of the Cuppa Cabin as they match their existing branding, including loyalty cards
-    This included a Malachite green
+    This included a Malachite green as a border, which made up the bulk of the colour used across the site, accented with a Medium Purple,
+    matching the coffee machine and existing sign at the premises. I experimented with adding other colours to try and help accentuate, which began to make the 
+    layout look untidy. Using only the three allowed for a bold and clean look, making information very clear. 
 
 ### Typography
     Google Fonts - Roboto for the main body text and Caveat for headings and links. 
