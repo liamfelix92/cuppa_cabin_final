@@ -3,7 +3,7 @@
 The Cuppa Cabin is a website to promote and facilitate the business The Cuppa Cabin, which offers food and drink as well as the rental of cabins to relax in.
 This site is intended to bring new customers to the business, but also offer returning customers simple booking options. 
     
-![Am I responsive screenshot](/assets/readme/responsive.JPG)
+![Am I responsive screenshot](documentation/testing/responsive.jpg)
 ## UX
     
 ### Target Audience
@@ -24,15 +24,15 @@ Existing customers, tourists,
 The Wireframes were produced using Balsamiq. The final site varies from the wireframes due to developments that occurred during the building process.
 
 #### Home Page
-![Home Page Wireframe](/assets/readme/Homepage.png)
+![Home Page Wireframe](documentation/wireframes/Homepage.png)
 #### Sheds Page
-![Sheds Page Wireframe](/assets/readme/Sheds.png)
+![Sheds Page Wireframe](documentation/wireframes/Sheds.png)
 #### Workshop Page
-![Workshop Page Wireframe](/assets/readme/Workshops.png)
+![Workshop Page Wireframe](documentation/wireframes/Workshops.png)
 #### Menu Page
-![Menu Page Wireframe](/assets/readme/Menu.png)
+![Menu Page Wireframe](documentation/wireframes/Menu.png)
 #### Contact Page
-![Contact Page Wireframe](/assets/readme/Contact.png)
+![Contact Page Wireframe](documentation/wireframes/Contact.png)
 
 ### Colour Scheme
 
@@ -41,11 +41,11 @@ This included a Malachite green as a border, which made up the bulk of the colou
 matching the coffee machine and existing sign at the premises. I experimented with adding other colours to try and help accentuate, which began to make the 
 layout look untidy. Using only the three allowed for a bold and clean look, making information very clear. 
 
-![Colour scheme](/assets/readme/colours.JPG)
+![Colour scheme](documentation/testing/colours.jpg)
 
-![Cuppa Cabin Flyer](/assets/readme/flyers.JPG)
+![Cuppa Cabin Flyer](documentation/testing/flyers.jpg)
 
-![Cuppa Cabin Sign](/assets/readme/sign.JPG)
+![Cuppa Cabin Sign](documentation/testing/sign.jpg)
 
 ### Typography
 
@@ -64,27 +64,27 @@ This website has standard features such as a navigational bar and footer, featur
 
 The navbar for each page is responsive and collapses into a hamburger at mobile screens and horizontal orientation on certain devices. The title is a link to return to the home page and when a page is active, it is displayed in bold for ease of navigation. 
 
-![Navbar full](/assets/readme/navbar-desktop.JPG)
+![Navbar full](documentation/testing/navbar-desktop.jpg)
 
-![Navbar collapsed](/assets/readme/navbar-collapsed.JPG)
+![Navbar collapsed](documentation/testing/navbar-collapsed.jpg)
 
 #### Footer
 
 The footer for each page is simple and includes links to the Cuppa Cabin's social media pages on Instagram and Facebook. 
 
-![Footer](/assets/readme/footer.JPG)
+![Footer](documentation/testing/footer.jpg)
 
 #### Hero Image
 
 The primary use for the home page is to display the basic information for the Cuppa Cabin, including the address and opening hours. This also includes a link to the Sheds page to allow for frequent visitors easy access to the booking modal. 
 
-![Home Hero Image](/assets/readme/hero-image.JPG)
+![Home Hero Image](documentation/testing/hero-image.jpg)
 
 #### Map
 
 The home page also includes an interactive map imported from Google Maps showing the location of the Cuppa Cabin. This includes the option to view a larger map which opens in a new tab to allow customers to generate directions. 
 
-![Home Google Map](/assets/readme/google-map.JPG)
+![Home Google Map](documentation/testing/google-map.jpg)
 
 ### Sheds Page
 
@@ -92,13 +92,13 @@ The home page also includes an interactive map imported from Google Maps showing
 
 The main body of the sheds page is used to display an image of each available shed to book and an explaination of the suggested numbers. This is done on a responsive grid system which lays out the information based on the device being used. This is placed on a dark background to match the opaque nature of the hero image for consistency across the site.
 
-![Sheds Main Body](/assets/readme/sheds-images.JPG)
+![Sheds Main Body](documentation/testing/sheds-images.jpg)
 
 #### Booking Modal
 
 The booking modal's content is supplied by SimplyBook's Widget services, this is a live booking service which the Cuppa Cabin currently uses. It allows the visitor to book a time slot for their desired shed with ease. 
 
-![SimplyBook Widget](/assets/readme/simplybook-modal.JPG)
+![SimplyBook Widget](documentation/testing/simplybook-modal.jpg)
 
 ### Workshops Page
 
@@ -106,25 +106,25 @@ The booking modal's content is supplied by SimplyBook's Widget services, this is
 
 The main body of the workshop page is used to display information for the upcoming workshops being ran, including their price. This is done on a responsive grid system which lays out the information based on the device being used. This is placed on a dark background to match the opaque nature of the hero image for consistency across the site.
 
-![Workshops Main Body](/assets/readme/workshops-images.JPG)
+![Workshops Main Body](documentation/testing/workshops-images.jpg)
 
 #### Enquiry Modal
 
 The modal is used for an enquiry form. The form includes checkboxes, allowing the visitor to enquire about multiple workshops at once. 
 
-![Workshops Modal](/assets/readme/workshop-modal.JPG)
+![Workshops Modal](documentation/testing/workshop-modal.jpg)
 
 ### Menu Page
 
 This page displays the current menu for the Cuppa Cabin so that visitors can view it before visiting. There is also a download button to allow for the PDF copy to be saved to a device. 
 
-![Menu Page](/assets/readme/menu-page.JPG)
+![Menu Page](documentation/testing/menu-page.jpg)
 
 ### Contact Page 
 
 The contact page displays a clean contact form to easily enquire about anything in regards to the cuppa cabin. It sits at the end of the links as a natural end to the user journey, in case any of their questions have not been answered by the information displayed. For this project, the submit validates the form only. 
 
-![Contact Page](/assets/readme/contact-form.JPG)
+![Contact Page](documentation/testing/contact-form.jpg)
 
 
 ### Features Left to Implement
@@ -163,14 +163,14 @@ The site was deployed to GitHub pages.
 3. Go to source, select "master" branch and select "save"
 4. The page will refresh and display a detailed ribbon indicating deployment. 
 
-![Deployment] (screenshot to be made once no more updates to repository)
+![Deployment](screenshot to be made once no more updates to repository)
 
 ### Copy the Repository
 
 1. Access GitHub and locate the repository
 2. Click "fork", found on right hand side, to create a copy of the original
 
-![Fork] (screenshot to be made once no more updates to repository)
+![Fork](screenshot to be made once no more updates to repository)
 
 ### Creating a Local Clone
 
@@ -181,7 +181,7 @@ The site was deployed to GitHub pages.
 5. Type "git clone" followed by the URL copied from GitHub
 6. Press enter to confirm and create local clone
 
-![Local] (screenshot to be made once no more updates to repository)
+![Local](screenshot to be made once no more updates to repository)
 
 ## Credits
 
