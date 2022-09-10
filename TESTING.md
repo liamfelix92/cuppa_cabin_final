@@ -56,7 +56,7 @@ This included:
 
 ## A11y Color Contrast Accessibility Checker
 
-
+![A11y Color Contrast Check](documentation/testing/contrast-check.jpg)
 
 
 ## Browser Compatibility
