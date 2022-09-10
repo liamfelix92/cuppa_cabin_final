@@ -38,6 +38,28 @@ h1 {
     color: #fff;
 }
 
+.hr-white {
+    border: none;
+    height: 1px;
+    color: white;
+    background-color: white;
+}
+
+.section-header {
+    background-color: #9370DB;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    width: 140px;
+}
+
+.hr-purple {
+    border: none;
+    height: 1px;
+    color: #9370DB;
+    background-color: #9370DB;
+}
+
 /*Navbar*/
 
 .navbar {
@@ -123,12 +145,7 @@ h1 {
     width: 140px;
     margin-top: 25px;
 }
-.hr-white {
-    border: none;
-    height: 1px;
-    color: white;
-    background-color: white;
-}
+
 
 /* map */
 #map-wrapper {
@@ -151,7 +168,7 @@ h1 {
 /* quotes */
 
 .quotes {
-    padding-top: 75px;
+    padding-top: 40px;
 }
 
 .media {
