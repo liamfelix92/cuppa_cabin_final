@@ -204,11 +204,14 @@ h1 {
     text-align: center;
     font-size: 2rem;
     clear: left;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    color: #7b52ae;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+   
+    color: black;
+    border-radius: 5px;
+    
 }
 
 /* sheds */
