@@ -5,11 +5,33 @@
 
 ### W3C HTML Validator
 
+#### Home Page
 
+![Home Page HTML Validation](documentation/testing/html-index.jpg)
+
+#### Sheds Page
+
+![Sheds Page HTML Validation](documentation/testing/html-sheds.jpg)
+
+#### Workshops Page
+
+![Workshops Page HTML Validation](documentation/testing/html-workshop.jpg)
+
+#### Menu Page
+
+![Menu Page HTML Validation](documentation/testing/html-menu.jpg)
+
+#### Contact Page
+
+![Contact Page HTML Validation](documentation/testing/html-contact.jpg)
+
+#### Confirmation Page
+
+![Confirmation Page HTML Validation](documentation/testing/html-confirmation.jpg)
 
 ### W3C CSS Validator 
 
-
+![Site-Wide CSS Validation](documentation/testing/css-validation.jpg)
 
 ## Lighthouse 
 
