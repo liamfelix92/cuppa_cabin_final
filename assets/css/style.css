@@ -198,9 +198,7 @@ h1 {
     background-color: #64d977;
 }
 
-.quotes a {
-    color:#9370DB;
-}
+
 
 .quote-link {
     background-color: #9370DB;
@@ -210,6 +208,12 @@ h1 {
     border-radius: 10px;
     margin-left: 10px;
     margin-bottom: 5px;
+}
+
+.quote-link a {
+    background-color: #9370DB;
+    color: black;
+    text-decoration: none;
 }
  
 /* footer */
