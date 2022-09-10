@@ -118,7 +118,7 @@ The modal is used for an enquiry form. The form includes checkboxes, allowing th
 
 This page displays the current menu for the Cuppa Cabin so that visitors can view it before visiting. There is also a download button to allow for the PDF copy to be saved to a device. 
 
-![Menu Page](documentation/testing/menu-page.jpg)
+![Menu Page](documentation/testing/menu.jpg)
 
 ### Contact Page 
 
