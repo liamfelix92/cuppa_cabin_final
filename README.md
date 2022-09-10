@@ -147,6 +147,7 @@ The contact page displays a clean contact form to easily enquire about anything 
 * Github
 * Am I Responsive?
 * Balsamiq
+* Hover.CSS
 
 ## Testing
 
