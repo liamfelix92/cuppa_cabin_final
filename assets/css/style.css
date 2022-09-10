@@ -382,8 +382,8 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     background-color: #64d977;
-    text-decoration: none;
     color: black;
+    width: 50%;
 }
 
 
@@ -415,6 +415,14 @@ h1 {
 }
 
 .btn-success {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #64d977;
+    color: black;
+}
+
+.btn-success:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
