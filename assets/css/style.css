@@ -79,7 +79,12 @@ h1 {
     font-weight: bold;
 }
 
-.navbar-brand, .navbar li {
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}
+
+.navbar li {
     font-family: 'Caveat', cursive;
     font-size: 1.5rem;
 }
@@ -212,6 +217,10 @@ h1 {
     color: black;
     border-radius: 5px;
     
+}
+
+footer a i:hover {
+    font-weight: bold;
 }
 
 /* sheds */
