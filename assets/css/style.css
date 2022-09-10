@@ -399,7 +399,7 @@ h1 {
 .callout-container-contact {
     background-size: cover;
     height: 100vh;
-    background: url(../images/contact.webp) no-repeat center center fixed; 
+    background: url(../images/contact.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
