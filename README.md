@@ -135,19 +135,23 @@ The contact page displays a clean contact form to easily enquire about anything 
 
 ## Technologies Used
 
-* HTML5
-* CSS 
-* Bootstrap 4.5
-* SimplyBook 
-* Google Fonts
-* Font Awesome
-* Google Maps
-* Chrome Dev Tools
-* Gitpod
-* Github
-* Am I Responsive?
-* Balsamiq
-* Hover.CSS
+* [HTML5](https://html.spec.whatwg.org/) - Content and structure.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Provides styling.
+* [Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Base structure, layout and design of pages.
+* [Google Fonts](https://fonts.google.com/) - Provides both fonts used for site. 
+* [Font Awesome](https://fontawesome.com/) - Instagram and Facebook icons for footer. 
+* [Gitpod](https://www.gitpod.io/) - Used to create and host the site.
+* [Github](https://github.com/) - Used for site deployment
+* [Hover.CSS](https://ianlunn.github.io/Hover/) - Provided hover animations for site
+* [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used extensively for testing responsiveness, deploying temporary changes to styling and layout. 
+* [Google Maps](https://maps.google.com) - Used to embed live map to site. 
+* [SimplyBook](https://help.simplybook.me/index.php/Widgets_for_your_own_website) - Booking widget on Sheds page.
+* [Am I Responsive?](https://ui.dev/amiresponsive) - Used to generate mockup of Home Page on various devices. 
+* [Balsamiq](https://balsamiq.com/) - Used to create the wireframes. 
+* [W3C Validation](https://validator.w3.org/) - Used to validate all site code. 
+* [Lighthouse](https://web.dev/performance-scoring/) - Used for accessibility and performance checks. 
+* [A11y Colour Contrast Checker](https://color.a11y.com/) - Used for colour contrast and accessibility checks. 
+* [Photoshop](https://www.adobe.com/uk) - Used for image manipulation.
 
 ## Testing
 
@@ -185,10 +189,6 @@ The site was deployed to GitHub pages.
 ![Local](screenshot to be made once no more updates to repository)
 
 ## Credits
-
-
-
-
 
 ### Content
 
