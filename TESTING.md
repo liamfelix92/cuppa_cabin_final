@@ -35,7 +35,13 @@
 
 ## Lighthouse 
 
+![Lighthouse Check](documentation/testing/lighthouse-check.png)
 
+The Lighthouse check has returned a sub-optimal performance. 
+
+![Lighthouse Check](documentation/testing/lighthouse-fails.jpg)
+
+A number of these appear to be related to the use of Bootstrap and the Google Maps iframe element. This could be improved dramatically through changes to efficiency which, for the purposes of this project, I am unable to rectify at the time. 
 
 
 ## Responsiveness 
