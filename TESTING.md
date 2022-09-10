@@ -44,19 +44,38 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 ## Testing User Stories 
 
 * As a user I would like to ensure my favourite shed is available so that I can enjoy my visit more. 
-    * The sheds page is easily accessible from home, giving immediate access to regular users. 
+    * The sheds page is easily accessible from home, giving immediate access to regular users and quick access to the booking page.  
+
+    ![Shed Booking Button](documentation/testing/hero-image.jpg)
+    ![SimplyBook Widget](documentation/testing/simplybook-modal.jpg)
 
 * As a user I want to be able to enquire about upcoming workshops so that I can save time.
     * Navigation to the Workshops page is clear and the enquiry form is simple to find. 
 
+    ![Workshops Main Body](documentation/testing/workshops-images.jpg)
+    ![Workshops Modal](documentation/testing/workshop-modal.jpg)
+
 * As a user I want to be able to contact the business so that I can enquire about dietry options. 
     * Navigation to the contact form is simple, the form itself is clear and concise and the user is notified that the message has been received. 
 
-* As a user I want to be able to plan my trip for peace of mind. 
-    *    
-* As a user I want to be able to see what other customers think before deciding to visit. 
-* As a user I want to be able to check what food and drink they offer before visiting. 
+    ![Contact Page](documentation/testing/contact-form.jpg)
+    ![Confirmation Page](documentation/testing/confirmation.jpg)
 
+* As a user I want to be able to plan my trip for peace of mind. 
+    * The home page includes a clear map which can be expanded to generate directions through Google. 
+
+    ![Home Google Map](documentation/testing/google-map.jpg)
+    ![Directions](documentation/testing/map-directions.jpg)
+
+* As a user I want to be able to see what other customers think before deciding to visit. 
+    * The home page includes reviews from customers and clear links to easily access Trip Advisor which containts additional reviews.
+
+    ![Reviews](documentation/testing/reviews.jpg)
+
+* As a user I want to be able to check what food and drink they offer before visiting. 
+    * Navigation to the menu page is clear and simple, with the option to download a PDF copy for offline viewing. 
+
+    ![Menu Page](documentation/testing/menu.jpg)
 
 ## Bugs
 
