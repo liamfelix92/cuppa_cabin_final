@@ -9,7 +9,7 @@ body {
 }
 
 a:hover {
-    color: #9370DB;
+    color: #DFC8E4;
 }
 
 .row {
@@ -22,7 +22,7 @@ a:hover {
 }
 
 .container-wrapper {
-    background-color: #6EDB68;
+    background-color: #64d977;
 }
 
 h1,
@@ -48,7 +48,7 @@ h1 {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #6EDB68;
+    background-color: #64d977;
     z-index: 1;
     text-align: center;
 }
@@ -165,7 +165,7 @@ h1 {
 
 .media {
     display: inline;
-    background-color: #6EDB68;
+    background-color: #64d977;
 }
 
 .quotes a {
@@ -183,7 +183,7 @@ h1 {
     box-sizing: border-box;
     width: 100vw;
     height: auto;
-    background-color: #6EDB68;
+    background-color: #64d977;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -247,7 +247,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #6EDB68;
+    background-color: #64d977;
 }
 
 
@@ -291,14 +291,14 @@ h1 {
      display: block;
      margin-left: auto;
      margin-right: auto;
-     background-color: #6EDB68;
+     background-color: #64d977;
  }
 
  .workshop-form-button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #6EDB68;
+    background-color: #64d977;
 }
 
 .enquiry-modal {
@@ -308,7 +308,7 @@ h1 {
 .workshop-form {
     text-align: center;
     padding: 25px;
-    background-color: #6EDB68;
+    background-color: #64d977;
 }
 
 .workshop-form-button {
@@ -348,7 +348,7 @@ h1 {
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #6EDB68;
+    background-color: #64d977;
     text-decoration: none;
     color: black;
 }
@@ -381,7 +381,13 @@ h1 {
     color: #fff;
 }
 
-
+.btn-success {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #64d977;
+    color: black;
+}
 
 /* Media Queries */
 
