@@ -58,10 +58,6 @@ Responsive design tests were carried out using both physical devices and [Chrome
 
 ![Nokia responsive check](documentation/testing/nokia5-3.jpg)
 
-#### Samsung Galaxy s21
-
-![S21 responsive check](documentation/testing/ipad.jpg)
-
 #### iPhone 12
 
 ![iPhone 12 responsive check](documentation/testing/iphone12.jpg)
@@ -90,15 +86,23 @@ The only device where I feel that the landing page is poorly optimised, however,
 
 ![S20 Ultra responsive check](documentation/testing/s20ultra.jpg)
 
+## Browser Compatibility
+
+The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox, with no visible issues for the user. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers, besides Safari, which seems to struggle with load times occasionally. 
+
+![Chrome Browser check](documentation/testing/chrome.jpg)
+
+![Firefox Browser check](documentation/testing/firefox.jpg)
+
+![Edge Browser check](documentation/testing/edge.jpg)
+
+![Safari Browser check](documentation/testing/safari.png)
 
 ## A11y Color Contrast Accessibility Checker
 
 ![A11y Color Contrast Check](documentation/testing/contrast-check.jpg)
 
 
-## Browser Compatibility
-
-The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox, with no visible issues for the user. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers, besides Safari, which seems to struggle with load times occasionally. 
 
 ## Testing User Stories 
 
@@ -140,7 +144,7 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 
 ### Resolved
 
-#### Background image sizing
+#### Background image sizing:
 
 During the building process, I had a recurring bug which caused issues with the background images. 
 
@@ -150,7 +154,7 @@ During the building process, I had a recurring bug which caused issues with the 
 
 In order to resolve this bug, I had to amend how the height was calculated in the CSS. For larger screen sizes, the height was calculated through the viewport height measurement. In order to fit correctly on smaller screens or when a device is in landscape, media queries had to be generated to measure the height in percentages rather than viewport height. 
 
-#### Jumbotron overflow
+#### Jumbotron overflow:
 
 During the building process, the home page's responsiveness collapsed when devices were approximately 350px wide or smaller. This caused the information contained within the Jumbotron to overflow into the container below. 
 
@@ -160,3 +164,6 @@ This was resolved through ammending media queries to factor in much smaller scre
 
 ### Unresolved
 
+#### Responsiveness on smaller devices:
+
+As displayed above with the iPhone SE, there could be further revisions to media queries and additional ones added which deal with specific screen sizes rather than larger breakpoints in order to improve the user experience. 
