@@ -8,7 +8,7 @@ This site is intended to bring new customers to the business, but also offer ret
     
 ### Target Audience
 
-Existing customers, tourists, 
+Existing customers, new customers such as tourists, coffee enthusiasts, local searches. 
 
 ### User Stories
 
@@ -132,9 +132,9 @@ Once submitted, the user is shown a confirmation that their message has been rec
 
 ### Features Left to Implement
 
-* Blog.
-* Gallery for shed takeover.
-* Direct booking for workshops.
+* Blog
+* Gallery for shed takeover events which the premises holds
+* Direct booking for workshops
 
 ## Technologies Used
 
