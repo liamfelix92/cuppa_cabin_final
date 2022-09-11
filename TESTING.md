@@ -46,16 +46,29 @@ A number of these appear to be related to the use of Bootstrap and the Google Ma
 
 ## Responsiveness 
 
-Responsive design tests were carried out manually using the following devices with no issues found. 
+Responsive design tests were carried out using both physical devices and [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/). 
 
-This included:
-- Samsung s10, s21
-- Google Pixel 4a, 6 Pro
-- Iphone 12, 
-- Ipad Air & Mini
-- 
-- 
-- 
+### Chrome Dev Tools Tests:
+
+## iPad
+
+![iPad responsive check](documentation/testing/ipad.jpg)
+
+## iPad Pro
+
+![iPad Pro responsive check](documentation/testing/ipadpro.jpg)
+
+## iPhone X
+
+![iPhone X responsive check](documentation/testing/iphonex.jpg)
+
+## iPhone SE
+
+![iPhone SE responsive check](documentation/testing/iphonese.jpg)
+
+## Samsung Galaxy s20 Ultra
+
+![S20 Ultra responsive check](documentation/testing/s20ultra.jpg)
 
 
 
