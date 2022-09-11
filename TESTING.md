@@ -138,6 +138,23 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 
 ### Resolved
 
+#### Background image sizing
+
+During the building process, I had a recurring bug which caused issues with the background images. 
+
+![Background sizing bug portrait](documentation/testing/background-height-issue.jpg)
+
+![Background sizing bug landscape](documentation/testing/background-height-landscape.jpg)
+
+In order to resolve this bug, I had to amend how the height was calculated in the CSS. For larger screen sizes, the height was calculated through the viewport height measurement. In order to fit correctly on smaller screens or when a device is in landscape, media queries had to be generated to measure the height in percentages rather than viewport height. 
+
+#### Jumbotron overflow
+
+During the building process, the home page's responsiveness collapsed when devices were approximately 350px wide or smaller. This caused the information contained within the Jumbotron to overflow into the container below. 
+
+![Jumbotron overflow bug](documentation/testing/jumbotron-overflow.jpg)
+
+This was resolved through ammending media queries to factor in much smaller screen sizes, reducing the total height which the jumbotron's content could occupy. 
 
 ### Unresolved
 
