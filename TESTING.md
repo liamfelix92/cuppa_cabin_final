@@ -62,6 +62,10 @@ Responsive design tests were carried out using both physical devices and [Chrome
 
 ![iPhone 12 responsive check](documentation/testing/iphone12.jpg)
 
+### Google Pixel 6 Pro
+
+![Pixel 6 responsive check](documentation/testing/pixel.jpg)
+
 ### Chrome Dev Tools Tests:
 
 #### iPad
