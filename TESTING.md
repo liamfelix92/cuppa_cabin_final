@@ -48,29 +48,52 @@ A number of these appear to be related to the use of Bootstrap and the Google Ma
 
 Responsive design tests were carried out using both physical devices and [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/). 
 
-### Chrome Dev Tools Tests:
+### Physical Device Tests:
 
-## iPad
+#### Samsung Galaxy s10
+
+![S10 responsive check](documentation/testing/sansungs10.jpg)
+
+#### Nokia 5.3
 
 ![iPad responsive check](documentation/testing/ipad.jpg)
 
-## iPad Pro
+#### Samsung s10
+
+![iPad responsive check](documentation/testing/ipad.jpg)
+
+#### Samsung s10
+
+![iPad responsive check](documentation/testing/ipad.jpg)
+
+#### Samsung s10
+
+![iPad responsive check](documentation/testing/ipad.jpg)
+
+
+### Chrome Dev Tools Tests:
+
+#### iPad
+
+![iPad responsive check](documentation/testing/ipad.jpg)
+
+#### iPad Pro
 
 ![iPad Pro responsive check](documentation/testing/ipadpro.jpg)
 
-## iPhone X
+#### iPhone X
 
 ![iPhone X responsive check](documentation/testing/iphonex.jpg)
 
-## iPhone SE
+#### iPhone SE
 
 ![iPhone SE responsive check](documentation/testing/iphonese.jpg)
 
-## Samsung Galaxy s20 Ultra
+The only device where I feel that the landing page is poorly optimised, however, the share of SE devices among iPhone users is approximately only 2.3%.
+
+#### Samsung Galaxy s20 Ultra
 
 ![S20 Ultra responsive check](documentation/testing/s20ultra.jpg)
-
-
 
 
 ## A11y Color Contrast Accessibility Checker
