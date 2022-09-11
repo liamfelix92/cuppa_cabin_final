@@ -60,9 +60,11 @@ Responsive design tests were carried out using both physical devices and [Chrome
 
 #### Samsung Galaxy s21
 
-![iPad responsive check](documentation/testing/ipad.jpg)
+![S21 responsive check](documentation/testing/ipad.jpg)
 
+#### iPhone 12
 
+![iPhone 12 responsive check](documentation/testing/iphone12.jpg)
 
 ### Chrome Dev Tools Tests:
 
