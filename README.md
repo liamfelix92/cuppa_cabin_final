@@ -192,11 +192,11 @@ The site was deployed to GitHub pages.
 
 ### Content
 
-* Issues were often resolved through stackoverflow.com, including posts from many helpful forum members. 
+* Issues were often resolved through [Stack Overflow](https://www.stackoverflow.com), including posts from many helpful forum members. 
+* Snippets of code used from [Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)'s documentation for both modals.
 * Other issues were resolved by returning to CI lessons and taking inspiration for fixes. 
-* Hamburger menu and layout inspired by Whiskey Drop lessons on CI.
-* Booking widget supplied by SimplyBook. 
-* Tasha TJ's ReadMe was instrumental in understanding the format and content of this document. 
+* Hamburger menu and index.html layout inspired by Whiskey Drop lessons on CI.
+* Booking widget supplied by [SimplyBook](https://help.simplybook.me/index.php/Widgets_for_your_own_website). 
 
 ### Media
 
@@ -204,4 +204,4 @@ All photos were supplied by Zoe Padfield of the Cuppa Cabin, full permission of 
 
 ### Acknowledgements
 
-CI Mentors Tim Nelson and Chris Quinn were invaluable in getting this project to fruition.
+CI Mentors Tim Nelson and Chris Quinn were invaluable in getting this project to fruition. My fellow students in the Coleg y Cymoedd May 2022 Slack group kept the motivation up and provided a few key reminders. My family and friends for taking the time to check my site on all their devices. Finally, Zoe Padfield for providing the inspiration for the project. 
