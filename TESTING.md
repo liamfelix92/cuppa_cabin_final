@@ -52,23 +52,16 @@ Responsive design tests were carried out using both physical devices and [Chrome
 
 #### Samsung Galaxy s10
 
-![S10 responsive check](documentation/testing/sansungs10.jpg)
+![S10 responsive check](documentation/testing/samsungs10.jpg)
 
 #### Nokia 5.3
 
-![iPad responsive check](documentation/testing/ipad.jpg)
+![Nokia responsive check](documentation/testing/nokia5-3.jpg)
 
-#### Samsung s10
-
-![iPad responsive check](documentation/testing/ipad.jpg)
-
-#### Samsung s10
+#### Samsung Galaxy s21
 
 ![iPad responsive check](documentation/testing/ipad.jpg)
 
-#### Samsung s10
-
-![iPad responsive check](documentation/testing/ipad.jpg)
 
 
 ### Chrome Dev Tools Tests:
