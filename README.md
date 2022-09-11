@@ -210,3 +210,5 @@ All photos were supplied by Zoe Padfield of the Cuppa Cabin, full permission of 
 ### Acknowledgements
 
 CI Mentors Tim Nelson and Chris Quinn were invaluable in getting this project to fruition. My fellow students in the Coleg y Cymoedd May 2022 Slack group kept the motivation up and provided a few key reminders. My family and friends for taking the time to check my site on all their devices. Finally, Zoe Padfield for providing the inspiration for the project. 
+
+Liam Padfield, 2022
