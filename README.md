@@ -171,25 +171,27 @@ The site was deployed to GitHub pages.
 3. Go to source, select "master" branch and select "save"
 4. The page will refresh and display a detailed ribbon indicating deployment. 
 
-![Deployment](screenshot to be made once no more updates to repository)
+![Deployment](documentation/tutorials/deploy-pages.png)
 
 ### Copy the Repository
 
 1. Access GitHub and locate the repository
 2. Click "fork", found on right hand side, to create a copy of the original
 
-![Fork](screenshot to be made once no more updates to repository)
+![Fork](documentation/tutorials/fork-repo.png)
 
 ### Creating a Local Clone
 
 1. Click on the "Code" dropdown tab
 2. This opens the clone box, select the HTTPS tab and click the copy icon
-3. Open GitBash
+3. In your workspace, open GitBash
 3. Change the current working directory to the desired location of your cloned directory
 5. Type "git clone" followed by the URL copied from GitHub
 6. Press enter to confirm and create local clone
 
-![Local](screenshot to be made once no more updates to repository)
+![Local Clone Github](documentation/tutorials/repo-clone-1.png)
+
+![Local Clone Gitbash](documentation/tutorials/repo-clone-2.png)
 
 ## Credits
 
